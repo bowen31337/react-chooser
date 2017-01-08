@@ -1,0 +1,51 @@
+{
+  "name": "react-chooer",
+  "version": "1.0.0",
+  "description": "It is the react chooser for dropbox, google drive, one drive ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build:min": "BABEL_ENV=production babel --copy-files --out-dir lib  src  --presets=babili"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bowen31337/react-chooser.git"
+  },
+  "keywords": [
+    "react",
+    "chooser",
+    "dropbox",
+    "google",
+    "drive",
+    "one",
+    "drive"
+  ],
+  "author": "Bowen Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowen31337/react-chooser/issues"
+  },
+  "homepage": "https://github.com/bowen31337/react-chooser#readme",
+  "peerDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-preset-react-app": "^2.0.1",
+    "babili": "^0.0.9",
+    "eval-script": "^1.0.0",
+    "jest": "^18.1.0",
+    "react-test-renderer": "^15.4.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
